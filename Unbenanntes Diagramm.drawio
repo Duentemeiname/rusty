@@ -1,9 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2024-06-14T17:49:25.178Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.4.8" etag="-LCRKZnlQZJmHegJNLLx" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-14T18:09:29.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="m6Cj2UPM-oN4Y_a_x2_U" version="24.4.8" type="github">
   <diagram name="Seite-1" id="YF_QmSCzJ3EkdJqQ7EPJ">
-    <mxGraphModel>
+    <mxGraphModel dx="2901" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-1" value="Client" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" vertex="1" parent="1">
+          <mxGeometry x="120" y="550" width="117" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-4" value="RUST Backend" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="61.6" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-5" value="Keycloak&amp;nbsp;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.key_management_service_external_key_store;" vertex="1" parent="1">
+          <mxGeometry x="650" y="410" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-6" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;1&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dn8iJfgRqg9mBhiihJNY-1" target="Dn8iJfgRqg9mBhiihJNY-5">
+          <mxGeometry x="-0.0543" y="-2" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="560" y="550" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="Dn8iJfgRqg9mBhiihJNY-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-10" value="2&lt;br style=&quot;font-size: 22px;&quot;&gt;&lt;div style=&quot;font-size: 22px;&quot;&gt;&lt;br style=&quot;font-size: 22px;&quot;&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;" vertex="1" connectable="0" parent="Dn8iJfgRqg9mBhiihJNY-9">
+          <mxGeometry x="-0.475" y="1" relative="1" as="geometry">
+            <mxPoint x="-119" y="58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dn8iJfgRqg9mBhiihJNY-12" target="Dn8iJfgRqg9mBhiihJNY-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-14" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;3&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dn8iJfgRqg9mBhiihJNY-11">
+          <mxGeometry x="-0.1007" y="-4" relative="1" as="geometry">
+            <mxPoint x="-12" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dn8iJfgRqg9mBhiihJNY-1" target="Dn8iJfgRqg9mBhiihJNY-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="204" y="557" as="sourcePoint" />
+            <mxPoint x="341" y="258" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-12" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/API_Connections.svg;" vertex="1" parent="1">
+          <mxGeometry x="230" y="400" width="68" height="45.32" as="geometry" />
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dn8iJfgRqg9mBhiihJNY-16" target="Dn8iJfgRqg9mBhiihJNY-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dn8iJfgRqg9mBhiihJNY-4" target="Dn8iJfgRqg9mBhiihJNY-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="388" y="240" as="sourcePoint" />
+            <mxPoint x="651" y="426" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-16" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/API_Connections.svg;" vertex="1" parent="1">
+          <mxGeometry x="414" y="260" width="68" height="45.32" as="geometry" />
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.99;entryY=0.136;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dn8iJfgRqg9mBhiihJNY-3" target="Dn8iJfgRqg9mBhiihJNY-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="400" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="Dn8iJfgRqg9mBhiihJNY-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="400" as="sourcePoint" />
+            <mxPoint x="391" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-22" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;5&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dn8iJfgRqg9mBhiihJNY-20">
+          <mxGeometry x="0.3585" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-3" value="JWT" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2" vertex="1" parent="1">
+          <mxGeometry x="470" y="244.8" width="80.4" height="25.200000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-21" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;1. Redirect to Keycloak Login: Parameter: client_id; redirect_uri; repsonse_code&lt;br&gt;2. Redirect Frontend: Parameter: session_state; iss; code&lt;/font&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;3. GET-Request to Rust API (request Token) Parameter:&amp;nbsp;&amp;nbsp;session_state; iss; code&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;4. POST-Request to Keycloak API from Rust API (create JWT) Patameter:&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;grant_type;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;code;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;redirect_uri;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;client_id;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;client_secret&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;&quot;&gt;5. Keycloak Answers the Rust API the JWT Token&lt;br&gt;6. Rust API validates Key and creates user in Databank&amp;nbsp;&lt;br&gt;7. Rust API Answers JWT or Custom Session Token.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="710" width="870" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dn8iJfgRqg9mBhiihJNY-4" target="Dn8iJfgRqg9mBhiihJNY-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="560" as="sourcePoint" />
+            <mxPoint x="440" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dn8iJfgRqg9mBhiihJNY-24" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;7&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dn8iJfgRqg9mBhiihJNY-23">
+          <mxGeometry x="0.3215" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
